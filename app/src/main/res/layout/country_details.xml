@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtCityName"
+        android:layout_width="match_parent"
+        android:text="City"
+        android:gravity="center"
+        style="@style/CountryTextViewLabel"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/lableCoordinates"
+        android:layout_below="@+id/txtCityName"
+        style="@style/CountryTextViewLabel"
+        android:text="@string/coordinates"
+        />
+
+
+    <TextView
+        android:id="@+id/valueCoordinates"
+        android:layout_below="@+id/txtCityName"
+        android:layout_toRightOf="@+id/lableCoordinates"
+        style="@style/CountryTextViewValue"
+         />
+
+    <TextView
+        android:id="@+id/lableBorders"
+        android:layout_below="@+id/valueCoordinates"
+        style="@style/CountryTextViewLabel"
+        android:text="@string/borders"
+        />
+
+
+    <TextView
+        android:id="@+id/valueBorders"
+        android:layout_below="@+id/valueCoordinates"
+        android:layout_toRightOf="@+id/lableBorders"
+        style="@style/CountryTextViewValue"
+         />
+
+    <TextView
+        android:id="@+id/lableLang"
+        android:layout_below="@+id/valueBorders"
+        style="@style/CountryTextViewLabel"
+        android:text="@string/launguage"
+        />
+
+
+    <TextView
+        android:id="@+id/valueLang"
+        android:layout_below="@+id/valueBorders"
+        android:layout_toRightOf="@+id/lableLang"
+        style="@style/CountryTextViewValue"
+         />
+
+</RelativeLayout>

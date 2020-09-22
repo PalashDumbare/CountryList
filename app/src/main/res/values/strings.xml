@@ -1,0 +1,9 @@
+<resources>
+    <string name="Name">"Name : "</string>
+    <string name="Capital">Capital : </string>
+    <string name="Population">"Population : "</string>
+    <string name="Currency">"Currency : "</string>
+    <string name="coordinates">"Coordinates : "</string>
+    <string name="borders">"Borders : "</string>
+    <string name="launguage">"Language : "</string>
+</resources>

@@ -1,0 +1,4 @@
+#Tue Sep 22 20:51:19 IST 2020
+base.0=/Users/PALASH/AndroidStudioProjects/Cities/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblName"
+                android:text="@string/Name"
+                style="@style/CountryTextViewLabel" />
+
+            <TextView
+                android:id="@+id/txtName"
+                style="@style/CountryTextViewValue"
+                android:layout_toRightOf="@+id/lblName"/>
+
+            <TextView
+                android:id="@+id/lblCapital"
+                android:text="@string/Capital"
+                style="@style/CountryTextViewLabel"
+                android:layout_below="@+id/lblName"/>
+
+            <TextView
+                android:id="@+id/txtCapital"
+                style="@style/CountryTextViewValue"
+                android:layout_toRightOf="@+id/lblCapital"
+                android:layout_below="@+id/lblName"/>
+
+
+            <TextView
+                android:id="@+id/lblpopulation"
+                style="@style/CountryTextViewLabel"
+                android:text="@string/Population"
+                android:layout_below="@+id/lblCapital"/>
+
+            <TextView
+                android:id="@+id/txtpopulation"
+                style="@style/CountryTextViewValue"
+                android:layout_toRightOf="@+id/lblpopulation"
+                android:layout_below="@+id/txtCapital"
+                android:text="1000"/>
+
+            <TextView
+                android:id="@+id/lblCurrency"
+                style="@style/CountryTextViewLabel"
+                android:text="@string/Currency"
+                android:layout_below="@+id/txtpopulation"
+               />
+
+            <TextView
+                android:id="@+id/txtCurrency"
+                style="@style/CountryTextViewValue"
+                android:text="@string/Currency"
+                android:layout_below="@+id/txtpopulation"
+                android:layout_toRightOf="@+id/lblCurrency"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
